@@ -1,0 +1,66 @@
+h1{
+    color:rgb(98, 0, 255);
+    padding-left:800px;
+    padding-right:80px;
+    background-color: gold ;
+}
+/* *{
+    border:solid;
+}
+*/
+/*.header *{
+    border:solid;
+}*/
+.header{
+    background-color: deeppink ;
+    display:flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: lightsalmon;
+}
+a:link{
+    color: purple;
+}
+a:visited{
+    color: darkgreen;
+}
+.menu{
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.menu a{
+    margin-left: 50px;
+    
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.33;
+    
+}
